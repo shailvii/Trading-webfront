@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin:10px 0 0 10px;
+}
+.logo img{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(85,83,83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fa{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+a:hover{
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+.notification {
+    display: flex;
+    align-items: center;
+    margin-top: 200px; 
+}
+
+.content{
+    margin-left: 90px;
+    max-width: 300px;
+}
+
+.profile-details {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+
+.profile-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    margin-right: 10px;
+}
+.profile-info h2 {
+    margin: 0;
+}
+
+.additional-text {
+    margin-top: 10px;
+}
+
+.account-info p {
+    margin: 5px 0;
+}
+
+.recent-transactions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-transactions li {
+    margin-bottom: 5px;
+}
+
+.today{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contri{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.interest{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 4px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 12px 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-button i {
+    margin-left: 5px;
+}
+
+.gray-section {
+    background-color: #f2f2f2;
+    padding: 10px;
+    right: -20px;
+    height: 600px;
+    top: 10px;
+    position: absolute;
+    max-width: 300px;
+    margin-left: 1050px; 
+}
+
+.gray-section h3 {
+    margin-top: 10px;
+    
+}
+
+.slider {
+    display: flex;
+    align-items:center;
+}
+
+.slider i {
+    cursor: pointer;
+}
+
+.emp{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 450;
+
+}
+.graph {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    height: 300px;
+    right: -20px;
+}
